@@ -83,7 +83,6 @@ class GameScene: SKScene {
     zombie.position = CGPoint(x: 400, y: 400)
     zombie.zPosition = 100
     addChild(zombie)
-    // zombie.run(SKAction.repeatForever(zombieAnimation))
 
     run(SKAction.repeatForever(
       SKAction.sequence([SKAction.run() { [weak self] in
@@ -97,7 +96,6 @@ class GameScene: SKScene {
                         },
                         SKAction.wait(forDuration: 1.0)])))
 
-    // debugDrawPlayableArea()
 
     playBackgroundMusic(filename: "backgroundMusic.mp3")
 
@@ -151,27 +149,24 @@ class GameScene: SKScene {
     }*/
 
     boundsCheckZombie()
-    // checkCollisions()
     moveTrain()
     moveCamera()
     livesLabel.text = "Lives: \(lives)"
 
+    // Game Over
+    
     if lives <= 0 && !gameOver {
       gameOver = true
       print("You lose!")
       backgroundMusicPlayer.stop()
 
-      // 1
       let gameOverScene = GameOverScene(size: size, won: false)
       gameOverScene.scaleMode = scaleMode
-      // 2
       let reveal = SKTransition.flipHorizontal(withDuration: 0.5)
-      // 3
       view?.presentScene(gameOverScene, transition: reveal)
 
     }
 
-    // cameraNode.position = zombie.position
   }
 
   override func didEvaluateActions() {

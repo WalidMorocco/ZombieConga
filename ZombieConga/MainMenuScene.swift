@@ -10,11 +10,14 @@ import SpriteKit
 
 class MainMenuScene: SKScene {
  
+  // Main Menu
   override func didMove(to view: SKView) {
     let background = SKSpriteNode(imageNamed: "MainMenu")
     background.position = CGPoint(x: size.width/2, y: size.height/2)
     addChild(background)
   }
+  
+  // Start game touch screen
   
   func sceneTapped() {
     let myScene = GameScene(size: size)

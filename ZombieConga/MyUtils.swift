@@ -9,6 +9,8 @@ import Foundation
 import CoreGraphics
 import AVFoundation
 
+// Where all the maths for the movements are done
+
 func + (left: CGPoint, right: CGPoint) -> CGPoint {
   return CGPoint(x: left.x + right.x, y: left.y + right.y)
 }
@@ -104,6 +106,8 @@ extension CGFloat {
     return CGFloat.random() * (max - min) + min
   }
 }
+
+// Add background music
 
 var backgroundMusicPlayer: AVAudioPlayer!
 

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		350C09641F16B1E500761747 /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 350C094A1F16B14300761747 /* backgroundMusic.mp3 */; };
-		350C09651F16B1E500761747 /* hitCat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 350C094B1F16B14300761747 /* hitCat.wav */; };
 		350C09661F16B1E500761747 /* hitCatLady.wav in Resources */ = {isa = PBXBuildFile; fileRef = 350C094C1F16B14300761747 /* hitCatLady.wav */; };
 		350C09671F16B1E500761747 /* lose.wav in Resources */ = {isa = PBXBuildFile; fileRef = 350C094D1F16B14300761747 /* lose.wav */; };
 		350C09681F16B1E500761747 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 350C094E1F16B14300761747 /* win.wav */; };
@@ -22,11 +21,11 @@
 		35C3F2C81F16720D003AB913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35C3F2C71F16720D003AB913 /* Assets.xcassets */; };
 		35C3F2CB1F16720D003AB913 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C3F2C91F16720D003AB913 /* LaunchScreen.storyboard */; };
 		35C3F2D31F1686D5003AB913 /* MyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C3F2D21F168667003AB913 /* MyUtils.swift */; };
+		CEA24D0E27DFE56D008BC10F /* hitCat.wav in Resources */ = {isa = PBXBuildFile; fileRef = CEA24D0D27DFE56D008BC10F /* hitCat.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		350C094A1F16B14300761747 /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
-		350C094B1F16B14300761747 /* hitCat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitCat.wav; sourceTree = "<group>"; };
 		350C094C1F16B14300761747 /* hitCatLady.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitCatLady.wav; sourceTree = "<group>"; };
 		350C094D1F16B14300761747 /* lose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lose.wav; sourceTree = "<group>"; };
 		350C094E1F16B14300761747 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
@@ -42,6 +41,7 @@
 		35C3F2CA1F16720D003AB913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35C3F2CC1F16720D003AB913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35C3F2D21F168667003AB913 /* MyUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUtils.swift; sourceTree = "<group>"; };
+		CEA24D0D27DFE56D008BC10F /* hitCat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitCat.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				350C094A1F16B14300761747 /* backgroundMusic.mp3 */,
-				350C094B1F16B14300761747 /* hitCat.wav */,
+				CEA24D0D27DFE56D008BC10F /* hitCat.wav */,
 				350C094C1F16B14300761747 /* hitCatLady.wav */,
 				350C094D1F16B14300761747 /* lose.wav */,
 				350C094E1F16B14300761747 /* win.wav */,
@@ -163,9 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				350C09921F16C0B100761747 /* GLIMSTIC.TTF in Resources */,
+				CEA24D0E27DFE56D008BC10F /* hitCat.wav in Resources */,
 				35C3F2C61F16720D003AB913 /* Main.storyboard in Resources */,
 				350C09681F16B1E500761747 /* win.wav in Resources */,
-				350C09651F16B1E500761747 /* hitCat.wav in Resources */,
 				35C3F2C81F16720D003AB913 /* Assets.xcassets in Resources */,
 				350C09671F16B1E500761747 /* lose.wav in Resources */,
 				350C09661F16B1E500761747 /* hitCatLady.wav in Resources */,

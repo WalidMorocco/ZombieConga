@@ -20,6 +20,8 @@ class GameOverScene: SKScene {
     fatalError("init(coder:) has not been implemented")
   }
 
+  // Change scene win or loose
+  
   override func didMove(to view: SKView) {
     var background: SKSpriteNode
     if (won) {
